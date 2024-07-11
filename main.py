@@ -17,7 +17,7 @@ from ui_cargando import Ui_Formcarga
 from ui_jugadores import Ui_Formjugadores
 
 # Inicialización de Firebase con las credenciales proporcionadas
-cred = credentials.Certificate("C:/Users/COP405L/Downloads/juegorol-6d13a-firebase-adminsdk-7pr5a-dc589389f3.json")
+cred = credentials.Certificate("")
 firebase_admin.initialize_app(cred)
 
 db = firestore.client()
